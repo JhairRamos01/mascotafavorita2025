@@ -1,0 +1,56 @@
+body {
+  font-family: Georgia, serif;
+  background-color: beige; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 480px;
+  margin: 50px auto;
+  background-color: #fff8f0; 
+  padding: 25px;
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px gray; 
+}
+
+h1 {
+  text-align: center;
+  color: brown; 
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  color: darkgreen; 
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 15px;
+  color: black;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: lightgreen; 
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: green; 
+}
